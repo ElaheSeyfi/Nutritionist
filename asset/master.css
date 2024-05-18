@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Crimson Text";
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+li{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    /* border: 5px solid red; */
+}
+.btn{
+    background-color: #e61f12;
+    color: white;
+    border-radius: 10px;
+    &:hover{
+        background-color: black;
+    }
+}
+.btn-black-link{
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    height: 50px;
+    /* border-radius: 10px; */
+    transition: .4s;
+    &:hover{
+        background-color: #e61f12;
+    }
+}
